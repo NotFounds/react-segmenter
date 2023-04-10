@@ -1,19 +1,25 @@
 {
   "name": "react-segmenter",
+  "type": "module",
   "version": "1.0.0",
   "description": "A React component that utilizes Intl.Segmenter to control line breaks in Japanese text.",
   "author": "NotFounds",
   "license": "MIT",
   "repository": "NotFounds/react-segmenter",
   "main": "dist/index.js",
-  "module": "dist/index.modern.js",
+  "module": "dist/index.module.js",
+  "unpkg": "dist/index.umd.js",
   "source": "src/index.tsx",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
   "engines": {
-    "node": ">=10"
+    "node": ">=18"
   },
   "scripts": {
-    "build": "microbundle-crl --no-compress --format modern,cjs",
-    "start": "microbundle-crl watch --no-compress --format modern,cjs",
+    "build": "microbundle",
+    "dev": "microbundle watch",
     "prepare": "run-s build",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
@@ -36,7 +42,7 @@
     "@types/react-dom": "^16.9.7 || ^18.0.0",
     "@typescript-eslint/eslint-plugin": "^2.26.0 || ^5.0.0",
     "@typescript-eslint/parser": "^2.26.0 || ^5.0.0",
-    "microbundle-crl": "^0.13.10",
+    "microbundle": "^0.15.1",
     "@babel/eslint-parser": "^10.0.3 || ^7.11.0",
     "cross-env": "^7.0.2",
     "eslint": "^6.8.0",
