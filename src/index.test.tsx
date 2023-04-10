@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { TextSegmenter } from '.'
 
-describe('ExampleComponent', () => {
+describe('TextSegmenter', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(TextSegementer).toBeTruthy()
   })
 })

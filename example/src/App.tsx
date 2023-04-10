@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-segmenter'
-import 'react-segmenter/dist/index.css'
+import { TextSegmenter } from 'react-segmenter';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return (
+    <TextSegmenter>Hello World!</TextSegmenter>)
+  ;
+};
 
-export default App
+export default App;
