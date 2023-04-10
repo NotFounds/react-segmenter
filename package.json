@@ -6,6 +6,7 @@
   "author": "NotFounds",
   "license": "MIT",
   "repository": "NotFounds/react-segmenter",
+  "keywords": ["react", "intl.segmenter"],
   "main": "dist/index.js",
   "module": "dist/index.module.js",
   "unpkg": "dist/index.umd.js",
