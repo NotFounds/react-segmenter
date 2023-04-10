@@ -13,16 +13,15 @@ yarn add react-segmenter
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'react-segmenter'
-import 'react-segmenter/dist/index.css'
+import { TextSegmenter } from 'react-segmenter'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const App: React.FC = () => {
+  return (
+    <TextSegmenter>Hello World!</TextSegmenter>
+  );
+};
 ```
 
 ## License
