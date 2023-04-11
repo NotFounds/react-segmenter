@@ -2,7 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/react-segmenter.svg)](https://www.npmjs.com/package/react-segmenter)
 
-[README.md - English)](/README.md)
+[README.md - English](/README.md)
 
 ---
 
