@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tool {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.wrapper {
+  box-sizing: border-box;
+  padding: 4px 8px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+}
+
+
