@@ -1,19 +1,17 @@
 {
   "name": "react-segmenter",
   "type": "module",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React component that utilizes Intl.Segmenter to control line breaks in Japanese text.",
   "author": "NotFounds",
   "license": "MIT",
   "repository": "NotFounds/react-segmenter",
   "keywords": ["react", "intl.segmenter"],
-  "main": "dist/index.js",
-  "module": "dist/index.module.js",
-  "unpkg": "dist/index.umd.js",
   "source": "src/index.tsx",
+  "main": "dist/index.cjs",
   "exports": {
     "require": "./dist/index.cjs",
-    "default": "./dist/index.modern.js"
+    "default": "./dist/index.module.js"
   },
   "engines": {
     "node": ">=18"
